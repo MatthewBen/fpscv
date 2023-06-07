@@ -95,7 +95,7 @@ while True:
   if frames < fps:
     frames += 1
   real_frames.count(True)
-  real_fps = math.ceil(real_frames.count(True) / (frames/fps))
+  real_fps = real_frames.count(True)
   print(f'frame {i}, real_fps={real_fps}')
   
   del y[0]
